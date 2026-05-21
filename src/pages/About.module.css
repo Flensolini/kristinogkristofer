@@ -1,0 +1,6 @@
+.lede {
+  font-size: 1.125rem;
+  color: var(--color-muted);
+  max-width: 36rem;
+  margin-bottom: 2rem;
+}
