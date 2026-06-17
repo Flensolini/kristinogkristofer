@@ -1,12 +1,20 @@
-import styles from './Contact.module.css';
+import styles from "./Gaveliste.module.css";
 
 const links = [
-  { label: 'Email', href: 'mailto:you@example.com', value: 'you@example.com' },
-  { label: 'GitHub', href: 'https://github.com/yourhandle', value: '@yourhandle' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/yourhandle', value: 'in/yourhandle' },
+  { label: "Email", href: "mailto:you@example.com", value: "you@example.com" },
+  {
+    label: "GitHub",
+    href: "https://github.com/yourhandle",
+    value: "@yourhandle",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/yourhandle",
+    value: "in/yourhandle",
+  },
 ];
 
-export default function Contact() {
+export default function Gaveliste() {
   return (
     <section>
       <h1>Contact</h1>

@@ -1,22 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import App from './App.jsx';
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Projects from './pages/Projects.jsx';
-import Contact from './pages/Contact.jsx';
-import './styles/global.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import App from "./App.jsx";
+import Program from "./pages/Program.jsx";
+import Detaljer from "./pages/Detaljer.jsx";
+import RSVP from "./pages/RSVP.jsx";
+import Gaveliste from "./pages/Gaveliste.jsx";
+import "./styles/global.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
+          <Route index element={<Program />} />
+          <Route path="detaljer" element={<Detaljer />} />
+          <Route path="rsvp" element={<RSVP />} />
+          <Route path="gaveliste" element={<Gaveliste />} />
         </Route>
       </Routes>
     </HashRouter>

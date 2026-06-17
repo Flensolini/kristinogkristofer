@@ -1,27 +1,28 @@
-import styles from './Projects.module.css';
+import styles from "./RSVP.module.css";
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A short description of what this project is and why it matters.',
-    href: '#',
-    tags: ['React', 'TypeScript'],
+    title: "Project One",
+    description:
+      "A short description of what this project is and why it matters.",
+    href: "#",
+    tags: ["React", "TypeScript"],
   },
   {
-    title: 'Project Two',
-    description: 'Another project — swap in a real summary when you have one.',
-    href: '#',
-    tags: ['Node.js', 'API'],
+    title: "Project Two",
+    description: "Another project — swap in a real summary when you have one.",
+    href: "#",
+    tags: ["Node.js", "API"],
   },
   {
-    title: 'Project Three',
-    description: 'A third placeholder card. Duplicate this entry to add more.',
-    href: '#',
-    tags: ['Design'],
+    title: "Project Three",
+    description: "A third placeholder card. Duplicate this entry to add more.",
+    href: "#",
+    tags: ["Design"],
   },
 ];
 
-export default function Projects() {
+export default function RSVP() {
   return (
     <section>
       <h1>Projects</h1>

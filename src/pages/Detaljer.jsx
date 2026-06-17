@@ -1,6 +1,6 @@
-import styles from './About.module.css';
+import styles from "./Detaljer.module.css";
 
-export default function About() {
+export default function Detaljer() {
   return (
     <section>
       <h1>About</h1>
