@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router-dom';
-import NavBar from './components/NavBar.jsx';
-import styles from './App.module.css';
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/NavBar.jsx";
+import styles from "./App.module.css";
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
         <Outlet />
       </main>
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} My Site. Built with React + Vite.</p>
+        <p>© {new Date().getFullYear()}</p>
       </footer>
     </div>
   );

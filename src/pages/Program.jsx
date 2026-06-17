@@ -4,35 +4,26 @@ import styles from "./Program.module.css";
 export default function Program() {
   return (
     <section>
-      <div className={styles.hero}>
-        <h1>Hi, I'm Your Name.</h1>
-        <p className={styles.lede}>
-          A short, friendly intro lives here. Tell visitors what you do and what
-          you're working on right now.
-        </p>
-        <div className={styles.ctas}>
-          <Link to="/projects" className={styles.primary}>
-            See projects
-          </Link>
-          <Link to="/contact" className={styles.secondary}>
-            Get in touch
-          </Link>
+      <div>
+        <h1>Program for helgen</h1>
+        <div className={styles.section}>
+          <h2>Fredag 11.09</h2>
+          <p className={styles.sub}>Musikkbingo på Pillarguri Cafe</p>
+          <p className={styles.sub}>Kl. 18.00</p>
+          <p className={styles.sub}>Det blir servert pizza</p>
         </div>
-      </div>
+        <div className={styles.section}>
+          <h2>Lørdag 12.09</h2>
+          <p className={styles.sub}>Vielse i Nord-Sel kirke</p>
+          <p className={styles.sub}>Kl. 12.00</p>
+          <div className={styles.break}></div>
+          <p className={styles.sub}>Bryllupskake og apertiff på Ulsvold</p>
+          <div className={styles.break}></div>
 
-      <div className={styles.highlights}>
-        <article className={styles.card}>
-          <h2>What I do</h2>
-          <p>A sentence or two about your focus area.</p>
-        </article>
-        <article className={styles.card}>
-          <h2>Latest</h2>
-          <p>Pull in a recent project, post, or update here.</p>
-        </article>
-        <article className={styles.card}>
-          <h2>Elsewhere</h2>
-          <p>Links to your GitHub, writing, or anywhere else.</p>
-        </article>
+          <p className={styles.sub}>Middag og fest i Sel samfunnshus</p>
+          <div className={styles.break}></div>
+          <p className={styles.sub}>Antrekk: Mørk dress</p>
+        </div>
       </div>
     </section>
   );

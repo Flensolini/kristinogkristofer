@@ -17,20 +17,7 @@ const links = [
 export default function Gaveliste() {
   return (
     <section>
-      <h1>Contact</h1>
-      <p className={styles.lede}>
-        The best way to reach me is over email. I usually reply within a couple
-        of days.
-      </p>
-
-      <ul className={styles.list}>
-        {links.map(({ label, href, value }) => (
-          <li key={label} className={styles.row}>
-            <span className={styles.label}>{label}</span>
-            <a href={href}>{value}</a>
-          </li>
-        ))}
-      </ul>
+      <h1>Gaveliste</h1>
     </section>
   );
 }
