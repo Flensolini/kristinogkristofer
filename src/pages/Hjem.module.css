@@ -11,41 +11,18 @@
 
 /* Monogram */
 .monogram {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 3rem;
-  line-height: 1;
-}
-
-.monoK {
-  font-family: "Cormorant Garamond", var(--font-serif);
-  font-size: 3.5rem;
-  font-weight: 500;
-}
-
-.monoK:first-child {
-  margin-right: -0.55em;
-}
-
-.monoK:last-child {
-  margin-left: -0.55em;
-}
-
-.monoAmp {
-  font-family: "Tangerine", cursive;
-  font-size: 5.5rem;
-  font-weight: 700;
-  position: relative;
-  z-index: 1;
+  display: block;
+  width: auto;
+  height: 8rem;
+  margin: 0 auto 3rem;
 }
 
 /* Intro */
 .intro {
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 1.05rem;
+  font-size: 2rem;
+  font-weight: 600;
   line-height: 1.9;
   margin-bottom: 3rem;
 }
@@ -58,7 +35,7 @@
 .name {
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0;
 }
@@ -74,6 +51,7 @@
 /* Details */
 .details {
   margin-bottom: 3.5rem;
+  font-weight: 600;
 }
 
 .venue {
@@ -106,6 +84,15 @@
   margin: 0;
 }
 
+/* Photo */
+.photo {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* RSVP */
 .rsvp {
   font-family: "Tangerine", cursive;
@@ -118,10 +105,7 @@
   .name {
     font-size: 1.9rem;
   }
-  .monoK {
-    font-size: 2.75rem;
-  }
-  .monoAmp {
-    font-size: 4.25rem;
+  .monogram {
+    height: 6rem;
   }
 }

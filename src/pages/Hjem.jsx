@@ -3,26 +3,14 @@ import styles from "./Hjem.module.css";
 export default function Hjem() {
   return (
     <section className={styles.invitation}>
-      <div className={styles.monogram} aria-hidden="true">
-        <span className={styles.monoK}>K</span>
-        <span className={styles.monoAmp}>&amp;</span>
-        <span className={styles.monoK}>K</span>
-      </div>
+      <img
+        className={styles.monogram}
+        src="/logoKK.svg"
+        alt="Kristin &amp; Kristofer monogram"
+      />
 
-      <p className={styles.intro}>
-        Vi har gleden av å invitere dere
-        <br />
-        til vårt bryllup
-      </p>
-
-      <div className={styles.names}>
-        <h1 className={styles.name}>Kristin Skaugen</h1>
-        <span className={styles.amp}>&amp;</span>
-        <h1 className={styles.name}>Kristofer Myhre</h1>
-      </div>
-
+      <p className={styles.intro}>Vi gifter oss</p>
       <div className={styles.details}>
-        <p className={styles.venue}>Nord - Sel kirke</p>
         <p className={styles.date}>
           <span>12</span>
           <span className={styles.sep}>|</span>
@@ -30,8 +18,19 @@ export default function Hjem() {
           <span className={styles.sep}>|</span>
           <span>26</span>
         </p>
-        <p className={styles.time}>Kl. 12.00</p>
       </div>
+
+      <div className={styles.names}>
+        <h1 className={styles.name}>Kristin Skaugen</h1>
+        <span className={styles.amp}>&amp;</span>
+        <h1 className={styles.name}>Kristofer Myhre</h1>
+      </div>
+
+      <img
+        className={styles.photo}
+        src="/IMG_6980.jpeg"
+        alt="Kristin &amp; Kristofer"
+      />
     </section>
   );
 }
